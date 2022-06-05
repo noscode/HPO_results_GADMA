@@ -1,0 +1,94 @@
+{
+  "hyperparameters": [
+    {
+      "name": "const_mut_rate",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 1.0,
+      "upper": 2.0,
+      "default": 1.02
+    },
+    {
+      "name": "const_mut_str",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 1.0,
+      "upper": 2.0,
+      "default": 1.01
+    },
+    {
+      "name": "gen_size",
+      "type": "categorical",
+      "choices": [
+        10,
+        50,
+        100
+      ],
+      "default": 10,
+      "probabilities": null
+    },
+    {
+      "name": "mut_rate",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 1e-15,
+      "upper": 1.0,
+      "default": 0.2
+    },
+    {
+      "name": "mut_strength",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 1e-15,
+      "upper": 1.0,
+      "default": 0.2
+    },
+    {
+      "name": "num_init_const",
+      "type": "categorical",
+      "choices": [
+        5,
+        10,
+        20
+      ],
+      "default": 10,
+      "probabilities": null
+    },
+    {
+      "name": "p_crossover",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.3
+    },
+    {
+      "name": "p_elitism",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.2
+    },
+    {
+      "name": "p_mutation",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.3
+    },
+    {
+      "name": "p_random",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.2
+    }
+  ],
+  "conditions": [],
+  "forbiddens": [],
+  "python_module_version": "0.4.18",
+  "json_format_version": 0.2
+}
