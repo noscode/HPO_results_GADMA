@@ -1,0 +1,4 @@
+"CPU Time Used","Estimated Training Performance","Wallclock Time","Incumbent ID","Automatic Configurator (CPU) Time","Configuration..."
+0.000000, 2147483648.000000, 0.000044, 1, 0.000044, const_mut_rate='1.02', const_mut_str='1.01', mut_rate='0.2', mut_strength='0.2', p_crossover='0.3', p_elitism='0.2', p_mutation='0.3', p_random='0.2'
+40.018881, 2024.044013, 40.057307, 1, 0.038426, const_mut_rate='1.02', const_mut_str='1.01', mut_rate='0.2', mut_strength='0.2', p_crossover='0.3', p_elitism='0.2', p_mutation='0.3', p_random='0.2'
+101350.967455, 2043.686132, 101405.581522, 2, 54.614066, const_mut_rate='1.4717812095206397', const_mut_str='1.4917817380280063', mut_rate='0.34511621655182556', mut_strength='0.5278369453954752', p_crossover='0.46038756132878245', p_elitism='0.41550774588062533', p_mutation='0.10670098062927424', p_random='0.010179729988767483'
