@@ -1,14 +1,14 @@
 # Hyperparameter optimization results for GADMA
 
-This repository contains runs of GADMA with different configurations of hyperparameters received by SMAC.
+This repository contains all scripts and results used to and obtained from hyperparameter optimization of [GADMA2](https://github.com/ctlab/GADMA).
 
-Hyperparameter is a parameter of an algorithm. The performance of each algorithm depends on its hyperparameters.
+Hyperparameter is a parameter of an algorithm. The performance of each algorithm depends on its hyperparameters. Genetic algorithm in GADMA has 10 hyperparameters overall. We performed optimization of hyperparameters using SMAC software.
 
-Genetic algorithm in GADMA has 10 hyperparameters overall. We performed optimization of hyperparameters using SMAC software. First round dedicated to optimization of all 10 hyperparameters failed to find better configuration than initial one. In order to archive proper grid search additional 2-6 rounds of SMAC optimization were launched.
+First round of optimization of all 10 hyperparameters failed to find better configuration than the initial one. In order to archive proper grid search additional 2-6 rounds of SMAC optimization were launched. Here we store scripts to reproduce our experiments with SMAC.
 
 Hyperparameter optimizatio was performed for *moments* engine in GADMA, however, configurations were validated for several engines.
 
-The following is included:
+The following is included within this repository:
 - `scripts` - python scripts to run SMAC optimization.
 - `smac_runs` - results of SMAC runs.
 - `comparison_on_datasets` - comparison of genetic algorithm configurations on train and test datasets for different engines (*dadi*, *moments*, *momi2*)
