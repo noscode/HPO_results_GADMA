@@ -113,4 +113,4 @@ Total number of configurations: 1080
 
 Comparison was performed for three engines: *moments*, *dadi* and *momi2*. There were four train datasets and six test datasets. Each configuration was run 128 times for each dataset.
 
-The results of GADMA runs are available to download as an archive from [Dropbox](https://www.dropbox.com/s/ji6khg9amoahhfg/comparison_on_datasets.zip?dl=0). The script to reproduce convergence plots is also available in the archive.
+The results of GADMA runs are available to download as an archive from [here](https://ctlab.itmo.ru/files/papers_files/GADMA2/comparison_on_datasets.zip). The script to reproduce convergence plots is also available in the archive.
